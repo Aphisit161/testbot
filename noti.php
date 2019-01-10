@@ -1,6 +1,7 @@
 <?php
 
 $API_URL = 'https://api.line.me/v2/bot/message';
+$Multicast = 'https://api.line.me/v2/bot/message/multicast';
 $ACCESS_TOKEN = 'wkLBbyb5keBNBpkEpai4FunmdNQ2cuIjWfZnbikThXQCy9pAUSv0ATqxmhxW3a6bBSeAjumNWi0k7eZpiDPKoW3C7mn/ODA1A4IPLS2eQIn6r+kVmHm9L0TIe1f+F6l3zCT5vFdzr0ZLpteAHZBMQAdB04t89/1O/w1cDnyilFU='; 
 $channelSecret = '698948a6edcc1641e1dc2360f7f6bcfd';
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $ACCESS_TOKEN);
